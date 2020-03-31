@@ -67,7 +67,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "date-picker-repo:build"
+            "browserTarget": "date-picker-repo:build",
+            "port": 4500
           },
           "configurations": {
             "production": {

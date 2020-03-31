@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as moment from 'moment';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'date-picker-repo';
+  dpConfigDate = { format: 'YYYY/MM/DD' };
+  startDate = moment().subtract(6, 'months');
 }
